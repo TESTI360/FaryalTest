@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="University_AdministrationEntities">
+    <EntitySetMapping Name="credentials">
+      <EntityTypeMapping TypeName="Model.credential">
+        <MappingFragment StoreEntitySet="credentials">
+          <ScalarProperty Name="credentialid" ColumnName="credentialid" />
+          <ScalarProperty Name="degreename" ColumnName="degreename" />
+          <ScalarProperty Name="field" ColumnName="field" />
+          <ScalarProperty Name="major" ColumnName="major" />
+          <ScalarProperty Name="university" ColumnName="university" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employees">
+      <EntityTypeMapping TypeName="Model.employee">
+        <MappingFragment StoreEntitySet="employee">
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="initials" ColumnName="initials" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="currddress" ColumnName="currddress" />
+          <ScalarProperty Name="currdesignation" ColumnName="currdesignation" />
+          <ScalarProperty Name="currsalarypkg" ColumnName="currsalarypkg" />
+          <ScalarProperty Name="department" ColumnName="department" />
+          <ScalarProperty Name="picture" ColumnName="picture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employeequalifications">
+      <EntityTypeMapping TypeName="Model.employeequalification">
+        <MappingFragment StoreEntitySet="employeequalification">
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="credentialid" ColumnName="credentialid" />
+          <ScalarProperty Name="proof" ColumnName="proof" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
