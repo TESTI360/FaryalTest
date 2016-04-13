@@ -10,6 +10,10 @@
     <form id="form1" runat="server">
     <div>
     
+        <asp:Button ID="btnhome" runat="server" Text="Home" OnClick="btnhome_Click" />
+        <br />
+        <br />
+    
         Initials<br />
         <asp:TextBox ID="txt_initials" runat="server"></asp:TextBox>
         <br />
@@ -37,7 +41,7 @@
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
-    <asp:Button ID="Button1" runat="server"  Text="Add" />
+    <asp:Button ID="btnaddemp" runat="server"  Text="Add" OnClick="btnaddemp_Click"  />
         
         
     

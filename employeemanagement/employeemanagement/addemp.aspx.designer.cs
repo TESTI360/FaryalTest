@@ -22,6 +22,15 @@ namespace employeemanagement {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// btnhome control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnhome;
+        
+        /// <summary>
         /// txt_initials control.
         /// </summary>
         /// <remarks>
@@ -94,12 +103,12 @@ namespace employeemanagement {
         protected global::System.Web.UI.WebControls.TextBox txt_department;
         
         /// <summary>
-        /// Button1 control.
+        /// btnaddemp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnaddemp;
     }
 }
